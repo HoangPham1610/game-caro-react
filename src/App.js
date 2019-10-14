@@ -10,13 +10,11 @@ function App() {
           <div className="col-lg-12">
             <h1 className="text-center"> Game Caro</h1>
           </div>
-
           <div className="col-lg-12">
-            <Game/>
+            <Game />
           </div>
         </div>
       </div>
-     
     </div>
   );
 }

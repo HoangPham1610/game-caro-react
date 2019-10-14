@@ -1,12 +1,18 @@
-import React from 'react'
-const Square = (props) => {
+import React from 'react';
+
+const Square = props => {
+  const { classSquare, value } = props;
   return (
     <div>
-      <button className={props.classSquare} onClick = {() => props.onClick()}>
-          {props.value}
+      <button
+        type="button"
+        className={classSquare}
+        onClick={() => props.onClick()}
+      >
+        {value}
       </button>
     </div>
-  )
-}
+  );
+};
 
 export default Square;
